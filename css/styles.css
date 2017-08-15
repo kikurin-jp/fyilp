@@ -12,7 +12,11 @@ a {
   text-decoration: none;
 }
 
-p {
+.image {
+  width: 100%;
+}
+
+/*p {
   line-height: 2;
 }
 
@@ -30,45 +34,45 @@ p {
 .btn:hover {
   opacity: 1;
 }
-
-img.shadow {
+*/
+/*img.shadow {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+}*/
 
-section {
+/*section {*/
   /*padding: 90px 0;*/
-}
+/*}*/
 
 /*section:nth-child(odd) {
   background: #f8f8f8;
 }*/
-
+/*
 section .container {
   width: 820px;
   margin: 0 auto;
-}
+}*/
 
-section h2 {
+/*section h2 {
   font-size: 26px;
   text-align: center;
   margin: 0 0 90px;
   font-weight: normal;
-}
+}*/
 
-section:not(.call-to-action) h2:after {
+/*section:not(.call-to-action) h2:after {*/
   /*content: '- title -';*/
-  display: block;
+  /*display: block;
   font-size: 18px;
   color: #aaa;
   padding-top: 10px;
-}
+}*/
 
 /* header */
 
-header {
+/*header {*/
   /*background: url('../img3/1.jpg');*/
   /*background-size: contain;*/
-}
+/*}*/
 
 /*header .container {
   width: 820px;
@@ -79,7 +83,7 @@ header {
   overflow: hidden;
 }
 */
-header h1, header p {
+/*header h1, header p {
   color: #fff;
   text-align: center;
   font-size: 100px
@@ -92,28 +96,28 @@ header p {
 header h1 {
   font-size: 34px;
   margin-bottom: 50px;
-}
+}*/
 
-header h2 {
+/*header h2 {
   margin-top: 50px;
   font-size: 34px;
   margin-bottom: 50px;
-  color: yellow;
-}
+  color: yellow;*/
+/*}
 
 header img {
   position: absolute;
   right: 0;
   bottom: 0;
-}
+}*/
 
 /* message */
 
-.message {
+/*.message {
   height: 250px;
-}
+}*/
 
-.message2 {
+/*.message2 {*/
   /*background: url('../img3/2.jpg');
   background-size: cover;*/
   /* width: 820px;*/
@@ -121,17 +125,17 @@ header img {
   /*text-align: center;*/
   /*padding-top: 50px;*/
   /*padding-left: 80px;*/
-  color: white;
+  /*color: white;
   font-size: 15px;
 }
 
 .message2-section p {
   font-size: 20px
-}
+}*/
 
 /* features */
 
-.features h2:after {
+/*.features h2:after {
   content: '- こんな方にオススメ -';
 }
 
@@ -160,10 +164,10 @@ header img {
 
 .features h3 {
   font-size: 24px;
-}
+}*/
 
 /* voices */
-
+/*
 .voices h2:after {
   content: '- こんな方にオススメ -';
 }
@@ -176,46 +180,45 @@ header img {
   right: 0;
   margin: 0 auto;
   top: -60px;
-}
+}*/
 
-.user {
+/*.user {
   background: #fff;
   width: 260px;
   box-sizing: border-box;
   padding: 65px 40px 26px;
   position: relative;
-}
+}*/
 
-.user h3 {
+/*.user h3 {
   text-align: center;
-}
+}*/
 
-.voices > .container {
+/*.voices > .container {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
-.voices h2 {
+/*.voices h2 {
   margin-bottom: 150px;
-}
+}*/
 
 
 /* speakers */
 
-.speakers {
+/*.speakers {*/
   /*background: url('../img3/4.jpg');
   background-size: cover;
   height: auto;
   width: 100%;*/
-}
+/*}*/
 
 img {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
 }
 
 
@@ -223,7 +226,7 @@ img {
   content: '- 登壇者プロフィール -';
 }*/
 
-.speakers .desc {
+/*.speakers .desc {
   width: 360px;
 }
 
@@ -248,35 +251,132 @@ img {
 
 .speakers h3 {
   font-size: 24px;
-}
+}*/
 
 
 /* detail */
-
+/*
 .detail h2:after {
   content: '- イベント概要 -';
-}
+}*/
 
 
 /* call-to-action */
 
-.call-to-action {
-  margin-top: -3px;
+/*.call-to-action {
+  margin-top: -3px;*/
   /*background: url('../img/bg.png');*/
-  background-size: cover;
+  /*background-size: cover;
   text-align: center;
   height: 300px;
-}
+}*/
 
-.call-to-action h2 {
-  color: #fff;
+/*.call-to-action h2 {
+  color: #fff;*/
   /*margin-bottom: 50px;*/
-  margin-bottom: -50px;
+  /*margin-bottom: -50px;*/
+/*}*/
+
+/*.call-to-action a {
+  margin-top: 100px;
+}*/
+
+@font-face {
+  font-family: 'LogoTypeGothic';
+  src: url('../LogoTypeGothic');
 }
 
-.call-to-action a {
-  margin-top: 100px;
+.about-fyi h2{
+  font-size: 40px;
+  padding-left: 60px;
 }
+
+.about-fyi p{
+  font-size: 20px;
+  /*font-weight: lighter;*/
+  padding-left: 60px;
+  font-family: sans-serif;
+}
+
+.about-fyi{
+  color: white;
+  background-color: rgb(5, 9, 36);
+  padding: 40px;
+  margin-top: -10px;
+}
+
+.about-fyi a{
+  color: rgb(255, 204, 0);
+}
+
+.about-fyi a:hover{
+  color: rgb(255, 248, 82);
+}
+
+.footer p{
+  color: rgb(5, 9, 36);
+  text-align: center;
+  padding: 60px;
+}
+
+
+/*.relative {
+  position: relative;*/
+  /*float: right;*/
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  /* transitionを指定してください */
+  /*display: block;
+}*/
+/*.absolute {
+    position: fixed;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+*/
+/*.relative:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #0dc0c0;
+  transition: color .3s;¥
+}*/
+
+
+.relative {
+top: 572px;
+right: 65px;
+position: fixed;
+z-index: 1;
+}
+
+.fyi {
+  font-family: 'arial unicode ms';
+}
+
+.test {
+  position: relative;
+}
+
+.test p {
+  position: absolute;
+  top: 498px;
+  left: 540px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.test a {
+  color: white;
+  /*color: #FFFC67;*/
+ /*text-decoration: none;*/
+}
+
+.test a:hover{
+  color: white;
+  color: #FFCC00;
+}
+
+
 
 /* footer */
 
@@ -286,113 +386,3 @@ footer {
   color: #ccc;
 }
 
-
-
-
-
-
-
-
-/*-------  ここからcontact  --------*/
-/*.contact-section {
-  background: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/backgrounds/contact.jpg");
-  background-size: cover;
-  color: white;
-}
-
-.contact-section-inner {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-bottom: 70px;
-}
-
-.contact-section h3, .contact-section h4 {
-  color: white;
-}
-
-.contact-section h4 {
-  font-size: 22px;
-  padding-bottom: 10px;
-}
-
-input[type="text"], textarea {
-  margin: 0;
-  padding: 0 10px;
-  vertical-align: middle;
-  background: rgba(250, 250, 250, 0.08);
-  border: none;
-  width: 85%;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  border-radius: 0;
-  box-shadow: none;
-  transition: all .3s;
-  margin-bottom: 20px;
-  padding: 15px;
-}
-
-textarea {
-  height: 150px;
-}
-
-.contact-form {
-  display: inline-block;
-  vertical-align: top;
-  width: 58%;
-}
-
-.btn-contact {
-  font-family: 'Dosis', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  background: #0dc0c0;
-  border: 1px solid #09b1b9;
-  color: white;
-  box-shadow: inset 0 1px 0 #0fc8c8;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  transition: all .3s;
-  margin: 10px 0;
-  padding: 15px 35px;
-}
-
-.contact-about {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-}
-
-.contact-about i {
-  padding-right: 15px;
-  font-size: 18px;
-}
-
-.contact-about p {
-  margin: 0 0 24px;
-  line-height: 24px;
-*/
-/*-------  ここまでcontact  --------*/
-
-
-
-
-/*-------  ここからmessage  --------*/
-/*.message-section {
-  clear: left;
-  color: white;
-  background: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/practice/backgrounds/night_view.jpg");
-  background-size: cover;
-  text-align: center;
-}
-
-.message-section-inner {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 140px 0;
-}
-
-.message-section h4 {
-  color: white;
-  font-size: 22px;
-  line-height: 40px;
-}*/
-/*-------  ここまでmessage  --------*/
