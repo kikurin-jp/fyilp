@@ -67,7 +67,7 @@ section:not(.call-to-action) h2:after {
 
 header {
   background: url('../img3/1.jpg');
-  background-size: cover;
+  background-size: contain;
 }
 
 header .container {
