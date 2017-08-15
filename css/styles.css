@@ -66,11 +66,11 @@ section:not(.call-to-action) h2:after {
 /* header */
 
 header {
-  background: url('../img3/1.jpg');
-  background-size: contain;
+  /*background: url('../img3/1.jpg');*/
+  /*background-size: contain;*/
 }
 
-header .container {
+/*header .container {
   width: 820px;
   margin: 0 auto;
   height: 800px;
@@ -78,7 +78,7 @@ header .container {
   position: relative;
   overflow: hidden;
 }
-
+*/
 header h1, header p {
   color: #fff;
   text-align: center;
@@ -114,13 +114,13 @@ header img {
 }
 
 .message2 {
-  background: url('../img3/2.jpg');
-  background-size: cover;
+  /*background: url('../img3/2.jpg');
+  background-size: cover;*/
   /* width: 820px;*/
-  height: 800px;
+  /*height: 800px;*/
   /*text-align: center;*/
-  padding-top: 50px;
-  padding-left: 80px;
+  /*padding-top: 50px;*/
+  /*padding-left: 80px;*/
   color: white;
   font-size: 15px;
 }
