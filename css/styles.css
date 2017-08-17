@@ -287,15 +287,19 @@ img {
 }
 
 .about-fyi h2{
-  font-size: 40px;
+  font-size: 37px;
   padding-left: 60px;
+  font-family: 'YuMincho';
+  font-family: 'Klee';
 }
 
 .about-fyi p{
-  font-size: 20px;
+  font-size: 28px;
   /*font-weight: lighter;*/
   padding-left: 60px;
-  font-family: sans-serif;
+  /*font-family: 'inherit';*/
+  font-family: 'YuMincho';
+  font-family: 'Klee';
 }
 
 .about-fyi{
@@ -340,16 +344,23 @@ img {
   transition: color .3s;¥
 }*/
 
+.relative img {
+  /*position: absolute;
+  width: 100%;
+  height: 100%;*/
+}
 
 .relative {
 top: 545px;
 right: 55px;
-position: fixed;
 z-index: 1;
+position: fixed;
+height: 0;
+padding-bottom: 56.25%;
 }
 
 .fyi {
-  font-family: 'arial unicode ms';
+  /*font-family: 'arial unicode ms';*/
 }
 
 .test {
